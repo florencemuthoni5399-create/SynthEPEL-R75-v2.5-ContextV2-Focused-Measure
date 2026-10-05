@@ -1,0 +1,17 @@
+{
+  "name": "synthepel-r75",
+  "version": "2.5.0",
+  "description": "R_75 authenticated tick research bot with context-conditioned probability, live proposal pricing and dynamic EPEL measurement.",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ws": "^8.18.0"
+  }
+}
